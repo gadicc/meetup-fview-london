@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg6911"
+   viewBox="0 0 623.85713 245.57155"
+   height="69.305748mm"
+   width="176.06635mm"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="scene-graph2.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="870"
+     inkscape:window-height="636"
+     id="namedview4188"
+     showgrid="false"
+     inkscape:zoom="0.54179072"
+     inkscape:cx="311.92856"
+     inkscape:cy="122.78577"
+     inkscape:window-x="123"
+     inkscape:window-y="194"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg6911" />
+  <defs
+     id="defs6913" />
+  <metadata
+     id="metadata6916">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-43.357135,-620.29071)"
+     id="g4408">
+    <path
+       inkscape:connector-curvature="0"
+       id="path4404"
+       d="M 238.57143,658.07649 537.14286,842.3622"
+       style="fill:#008000;fill-rule:evenodd;stroke:#008000;stroke-width:6.19999981;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4406"
+       d="M 517.14286,650.93363 230,842.3622"
+       style="fill:#008000;fill-rule:evenodd;stroke:#008000;stroke-width:6.19999981;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <ellipse
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#ffff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.77768469;stroke-miterlimit:3.29999995;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
+     id="path3336-3-3"
+     cx="328.07141"
+     cy="116.35715"
+     rx="82.12738"
+     ry="47.662228" />
+  <text
+     sodipodi:linespacing="125%"
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:29.15473175px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="272.68179"
+     y="129.05193"
+     id="text4140-7-0"
+     transform="scale(1.0419862,0.95970561)"><tspan
+       id="tspan4142-9-3"
+       x="272.68179"
+       y="129.05193"
+       style="font-weight:bold">NODE</tspan></text>
+  <rect
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.97552204;stroke-miterlimit:3.29999995;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
+     id="rect4357"
+     width="172.45306"
+     height="46.738766"
+     x="38.987762"
+     y="0.98776126" />
+  <text
+     sodipodi:linespacing="125%"
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="93.785713"
+     y="35.785736"
+     id="text4359"><tspan
+       id="tspan4361"
+       x="93.785713"
+       y="35.785736"
+       style="font-weight:bold;font-size:30px">SIZE</tspan></text>
+  <rect
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.97552204;stroke-miterlimit:3.29999995;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
+     id="rect4357-3"
+     width="172.45306"
+     height="46.738766"
+     x="445.55917"
+     y="3.5591724" />
+  <text
+     sodipodi:linespacing="125%"
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="456.07138"
+     y="36.928558"
+     id="text4359-5"><tspan
+       id="tspan4361-2"
+       x="456.07138"
+       y="36.928558"
+       style="font-weight:bold;font-size:30px">POSITION</tspan></text>
+  <rect
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.23612928;stroke-miterlimit:3.29999995;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
+     id="rect4357-0"
+     width="222.19246"
+     height="46.478157"
+     x="1.1180643"
+     y="197.97533" />
+  <text
+     sodipodi:linespacing="125%"
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="11.500007"
+     y="231.21434"
+     id="text4359-7"><tspan
+       id="tspan4361-0"
+       x="11.500007"
+       y="231.21434"
+       style="font-weight:bold;font-size:30px">DOMElement</tspan></text>
+  <rect
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.97552204;stroke-miterlimit:3.29999995;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
+     id="rect4357-5"
+     width="172.45306"
+     height="46.738766"
+     x="450.41629"
+     y="196.98778" />
+  <text
+     sodipodi:linespacing="125%"
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="492.92856"
+     y="230.35716"
+     id="text4359-4"><tspan
+       id="tspan4361-03"
+       x="492.92856"
+       y="230.35716"
+       style="font-weight:bold;font-size:30px">Mesh</tspan></text>
+</svg>

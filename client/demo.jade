@@ -1,0 +1,9 @@
+template(name="demo")
+  +Node size="P:5; P:5" mountPoint="[.5,.5]" align="[.5,.5]" position="[0,0,-3000]"
+    +DOMElement class="demo-bg"
+      | 
+  +DemoLayout
+    each people
+      +DemoNode
+        +DOMElement class="person"
+          img(src="{{url}}")

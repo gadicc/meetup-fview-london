@@ -1,0 +1,600 @@
+head
+  title Meteor London - Famous-Views
+
+template(name='slide1')
+  +Slide
+    +DOMElement
+      h3 Meteor London
+      h2 Famous-Views
+      img.gravatar.noclick(src='/img/gravatar.png')
+      h3 25th June, 2015
+      p These slides are available at:
+        br
+        a(href="http://meetup-fview-london.meteor.com/") gadi.cc/meteor-london
+      .footer Gadi Cohen (gadicc)
+
+template(name='slide2')
+  +Slide
+    +DOMElement
+      h2 Meetup Famous - The Speaker
+      h3 So who am I?
+      ul
+        li South African living in Israel
+        li Online since the 80s - Compuserve, BBS's, IRC, etc.
+        li 13 yrs PHP & MySQL experience before Meteor
+        li Currently working in a private start-up
+
+      h3 Meteor community
+      img(src="/img/meteor-messageformat.jpg",style="border: 1px solid black; float: right; box-shadow: 1px 1px 3px #999")
+      ul
+        li
+          a(href="http://www.meteorpedia.com/",target="_TOP") Meteorpedia
+          | - co-author, current maintainer
+        li
+          a(href="http://messageformat.meteor.com/",target="_TOP") meteor-messageformat
+          | - i18n and smart language
+        li
+          a(href="http://famous-views.meteor.com",target="_TOP") famous-views
+          | - this talk
+        li
+          a(href="https://atmospherejs.com/gadicohen",target="_TOP") ... and 21 others.
+        br
+        li used to be very active in
+          a(href="https://groups.google.com/forum/#!forum/meteor-talk",target="_TOP") meteor-talk
+          | before the
+          a(href="http://forums.meteor.com/") forums
+        li
+          a(href="http://usermap.meteor.com/",target="_TOP") usermap
+          | ,
+          a(href="http://doingthiswith.meteor.com/",target="_TOP") doingThisWith
+          | , etc.
+      .footer gadicc
+
+template(name='slide3')
+  +Slide
+    +DOMElement
+      h3 Today
+      h2 Famous &amp; Famous-Views
+
+      h3 45 minutes from now you will know...
+      p ... what Famous is
+      p ... why it's a big detail
+      p ... how to use it
+      p and
+      p ... how to integrate it easily with Meteor
+
+template(name='slide4')
+  +Slide
+    +DOMElement
+      h3 Why are we here?
+      h4 We love Meteor!
+
+      p Great web apps without a massive engineering team
+
+      p
+        i But what about mobile?
+      img(src="/img/comscore.jpg", style="height: 400px")
+
+
+template(name='slide5')
+  +Slide
+    +DOMElement
+      h3 Building for Mobile
+      ul
+        li
+          b App Expectations
+          br
+          br
+          ul
+            li (Responsive) Layout
+            li Access to Phone API
+            li App Store
+            li Native feel
+        br
+        li
+          b How?
+          br
+          br
+          ul
+            li Multiple code bases
+            li Single HTML + JS code base
+              img(align="right", src="/img/laptop-tablet-mobile-phone.png")
+              br
+              br
+              ul
+                li CSS media-queries
+                li PhoneGap / Cordova / Titanium
+                br
+                li Ionic / Meteoric
+                li React Native
+                li Famous
+      .footer gadicc
+
+template(name='slide6')
+  +Slide
+    +DOMElement
+      h2(style="margin-bottom: 0") React & React Native
+      p(style="margin-top: 0") From Facebook
+      ul
+        li
+          b React
+          img(align="right",src="/img/react1.png")
+          br
+          br
+          ul
+            li Rendering Engine (vs Blaze)
+            li ...
+          br
+        li
+          b React Native
+          br
+          br
+          img(align="right",src="/img/react-native.png")
+          ul
+            li Hybrid approach - use native components in your templates
+            br
+            li iOS now, Android planned
+            li Very few modules for native API access
+            li No longer in HTML + JS; per device templates -
+              | no Meteor client-side
+
+template(name='slide7')
+  +Slide
+    +DOMElement
+      h2 Meetup Famous - What is Famous?
+
+      img(align="right",src="/img/famo-us-steve-and-mark-pic-780x520.jpg",style="height: 250px")
+      p Where it came from?
+
+      ul
+        li Pinterest-meets-About.me
+        li HTML5 fail on mobile
+        li The Meteor Parallel
+        br
+        li Steve Newcomb, PowerSet, $100m
+        li Mark Lu, Berkley, idea at 22.
+        li $30m in funding (just like Meteor)
+
+      p And how it compares to what we currently use
+      ul
+        li DOM Layout (slow!!!) vs "Game" Layout
+        li What is hardware accelerated and what isn't
+        li requestAnimationFrame, cascading updates
+        li Physics Engine vs CSS / Tween animations
+
+template(name='slide8')
+  +Slide
+    +DOMElement
+      h2 Demos and Eye Candy
+      div(style="float: right;")
+        a(href="http://periodic.famo.us/")
+          img(src="/img/famous-periodic.jpg",style="border: 1px solid black; width: 300px; box-shadow: 1px 1px 3px #999")
+        br
+        br
+        a(href="https://play.google.com/store/apps/details?id=com.demobo.tube")
+          img(src="/img/demobo.jpg",style="border: 1px solid black; width: 300px; box-shadow: 1px 1px 3px #999")
+      ul
+        li
+          a(href="https://www.youtube.com/watch?v=NqDMFANQ1v8") Famous Intro (new)
+          | &amp;
+          a(href="http://famous.org/learn/MixedMode/index.html") Mixed Mode Lesson
+          | (
+          a(href="https://fview-lab2.meteor.com/pads/3WusgoWo7BRWpj5JX") fview
+          | )
+        li
+          a(href="https://www.youtube.com/watch?v=z9PPD9z2sPM") Sizzle Real (old)
+          | - 1:30m, misc partial demos
+        br
+        li
+          a(href="http://periodic.famo.us/") Famo.us Periodic Table
+        li
+          a(href="http://demo.famo.us/lightbox/") Lightbox Demo
+        br
+        li
+          b Physics
+          | -
+          a(href="http://famousbubble.meteor.com/") famousbubble.meteor.com
+          | (
+          a(href="http://meetupfamousslides.meteor.com/") slidedeck
+          | )
+          br
+          | by Pierre-Eric Marchandet (PEM--)
+        br
+        li
+          a(href="https://www.youtube.com/watch?v=6jg-PlisAFc") Facebook Paper in Famo.us
+        li
+          a(href="https://play.google.com/store/apps/details?id=com.demobo.tube") de Mobo Tube
+          | ,
+          a(href="http://youtu.be/liSuOkZICnw?t=22m40s") (dd+)
+        br
+        li
+          a(href="http://famous.org/learn/MixedMode/index.html") Mixed Mode Intro
+          | +
+          a(href="https://fview-lab2.meteor.com/pads/3WusgoWo7BRWpj5JX") fview version
+        li
+          a(href="http://youtu.be/EjLCfD8qrkE") Mixed Mode Keyboard
+          a(href="http://youtu.be/EjLCfD8qrkE?t=1m") (1:00), 
+          a(href="https://www.youtube.com/watch?v=FwGjm9DZ-S4") Coverflow
+        br
+        li
+          a(href="http://boot-com-webapp.herokuapp.com/") Boot-com
+            | - basic widgets
+        li
+          a(href="http://codepen.io/befamous/")
+            | Famo.us CodePen
+
+      .footer gadicc
+
+template(name='slide9')
+  +Slide
+    +DOMElement
+      h2 Mixed Mode, Engine &amp; Framework
+
+      h3 History
+      ul
+       li 1st Famous Beta - April, 2014 - v0.3
+       li Famous Engine ("Mixed Mode") - May 21st - v0.5 beta
+        ul
+          li Lower-level stuff; addressed past API issues + efficiency
+       li Famous Framework ("BEST") - June 22nd - alpha
+        ul
+          li Cleanly build complicated, reusable components
+
+      h3 "Components"
+      ul
+        li In Engine -- like a "decorator" on a Node (see next page)
+        li In Framework, Meteor and in general -- a "layout", "widget"
+
+      h3 The Scene Graph
+      ul
+        li Where Famous lives, outside of DOM-land
+        li Scenes are rendered to <code>body</code> or <code>div</code>
+
+template(name='slide10')
+  +Slide
+    +DOMElement
+      h2 The Scene Graph
+      h3 Nodes
+      br
+      img.svgBorder(src="/img/scene-graph1.svg",style="width:45%")
+      br
+      br
+      br
+      p Scene is the root node, nodes may have any number of node children.
+
+
+template(name='slide11')
+  +Slide
+    +DOMElement
+      h2 The Scene Graph
+      h3 Engine Components
+      a(href="https://en.wikipedia.org/wiki/Composition_over_inheritance") Composition over inheritance
+      br
+      br
+      img.svgBorder(src="/img/scene-graph2.svg",style="width:45%")
+      br
+      br
+      br
+      p See also
+        br
+        a(href="http://entity-systems-wiki.t-machine.org/") What is an Entity System
+
+
+template(name='slide12')
+  +Slide
+    +DOMElement
+      h2 The Scene Graph
+      h3 DOM Mapping
+      br
+      img.svgBorder(src="/img/scene-graph3.svg")
+      br
+      br
+      p
+        | Can absolutely position each child or have a
+        br
+        | layout / widget / component do it for us automatically.
+
+template(name='slide13')
+  +Slide
+    +DOMElement
+      h2 Example with raw Famous Engine
+
+      div.noclick(style="position: relative")
+        +snippet lang="javascript"
+          | var FamousEngine = require('famous/core/FamousEngine');
+          | var DOMElement = require('famous/dom-renderables/DOMElement');
+          | 
+          | // Initialize Engine and create our Scene
+          | FamousEngine.init();
+          | var scene = FamousEngine.createScene();
+          | 
+          | // Create our child nodes
+          | var appNode = scene.addChild();
+          | var headerNode = appNode.addChild();
+          | var contentNode = appNode.addChild();
+          | var footerNode = appNode.addChild();
+          | 
+          | // 3rd generation nodes
+          | var itemNode1 = contentNode.addChild();
+          | var itemNode2 = contentNode.addChild();
+          | var itemNode3 = contentNode.addChild();
+          | 
+          | var dom_in1 = new DOMElement(itemNode1);
+          | dom_in1.setContent('I am a div!');
+          | dom_in1.setProperty('background-color', 'red');
+          | 
+          | // etc
+
+        img(src="/img/scene-graph-compare.png",style="position: absolute; bottom: 0; right: 0")
+
+template(name='slide14')
+  +Slide
+    +DOMElement
+      h2 Comparison with HTML
+
+      div.noclick
+        +snippet lang="javascript"
+          | var appDiv = document.createElement('div');
+          | document.body.appendChild(appDiv);
+          | 
+          | var headerDiv = document.createElement('div');
+          | var contentDiv = document.createElement('div');
+          | var footerDiv = document.createElement('div');
+          | 
+          | appDiv.appendChild(headerDiv);
+          | appDiv.appendChild(contentDiv);
+          | appDiv.appendChild(footerDiv);
+          | 
+          | var itemDiv1 = document.createElement('div');
+          | contentDiv.appendChild(itemDiv1);
+          | 
+          | itemDiv1.innerHTML = "I'm a div!";
+          | itemDiv1.style.background = 'red';
+
+      br
+      br
+      br
+      br
+      p Not very Meteory :(
+
+template(name='slide15')
+  +Slide
+    +DOMElement
+      img(src="/img/famous-views.png", style="border: 1px solid #888")
+      br
+      span
+        b
+          i "Famous, the Meteor Way"
+      br
+
+      ul
+        li
+          b Primarily
+          | , a
+          i low-level wrapper
+          | around Famous
+        li Build in Famous using markup, in your templates
+        li Support reactive <i>templates</i>, <i>helpers</i>, <i>cursors</i>, etc
+        li Work out the box with iron-router, flow-router, etc.
+        br
+        li Make Meteor "play nice" with Famous
+          ul
+            li Meteor.setTimer etc via Famous, time-limited defer queue
+            li Pause/resume implicit Tracker.flush to not block frames
+            li WIP:
+              a(href="https://github.com/gadicc/meteor-blaze-virtual-dom") Virtual DOM for Blaze
+              | so materialize/destroy don't block
+        br
+        li Ecosystem of <code>fview-*</code> packages / plugins
+        li Long term: Mashup of ionic-inspired prebuilt Meteor+Famous components
+
+template(name='slide16')
+  +Slide
+    +DOMElement
+      h2 Simple Code Demo: FView-Lab
+
+      p Not released!!!  Preview only.
+        br
+        | Live code editor for client-side Famous-Views
+
+      a(href="http://fview-lab2.meteor.com/")
+        img(src="/img/fview-lab.jpg")
+
+template(name='slide17')
+  +Slide
+    +DOMElement
+      h2 Simple Code Demo - FView-Lab
+
+      h3
+        a(href="http://fview-lab2.meteor.com/") Let's do some code!
+      ul
+        li Show content
+        li Style content
+        li Size
+        li Center!
+        li Position with animation
+        br
+        li Simple Layout
+        li Eye candy Layout
+
+template(name='slide18')
+  +Slide
+    +DOMElement
+      h2 Simple Code Demo - FView-Lab
+
+      div.noclick
+        +snippet lang="javascript"
+          | Template.body.helpers({
+          |   people: function() { return People.find(); }
+          | });
+          | 
+          | FView.wrap('DemoLayout', DemoLayout);
+          | FView.wrap('DemoNode', DemoNode);
+
+        +snippet lang="spacebars"
+          | &lt;body&gt;
+          |   {{dstache}}#Scene}}
+          |     {{dstache}}#DemoLayout}}
+          |       {{dstache}}#famousEach people}}
+          |         {{dstache}}#DemoNode}}
+          |           {{dstache}}#DOMElement class="person"}}
+          |             &lt;img src="{{dstache}}url}}"&gt;
+          |           {{dstache}}/DOMElement}}
+          |         {{dstache}}/DemoNode}}
+          |       {{dstache}}/famousEach}}
+          |     {{dstache}}#DemoLayout}}
+          |   {{dstache}}/Scene}}
+          | &lt;body&gt;
+        else
+          if currentLang 'jade'
+            | body
+            |   +Scene
+            |     +DemoLayout
+            |       +famousEach people
+            |         +DemoNode
+            |           +DOMElement
+            |             img(src="{{dstache}}url}}")
+
+        +prism language="css"
+          | body { background: #333; }
+          | .person img { width: 150px; height: 150px; box-shadow: 0px 0px 7px 2px white; }
+   
+template(name='slide19')
+  +Slide
+    +demo
+
+template(name='slide20')
+  +Slide
+    +DOMElement
+      h2
+        a(href="http://famous.org/framework/") Famous Framework
+
+      div.noclick
+        +snippet lang="js"
+          | FamousFramework.component('my-name:hello-framework',  {
+          |   behaviors: {
+          |     '#text': {
+          |      'size': [400, 80],
+          |      'position': function(positionX) {
+          |        return [positionX, 0];
+          |     }
+          |   },
+          |   events: {
+          |     '#background': {
+          |       'click': function($state, $payload) {
+          |         $state.set('positionX', $state.get('positionX') + 10);
+          |       }
+          |     }
+          |   },
+          |   states: {
+          |    positionX: 10,
+          |   },
+          |   tree: `
+          |       &lt;node id='background'&gt;
+          |         &lt;node id='text'&gt; 
+          |           &lt;div&gt; Hello Framework! &lt;/div&gt;
+          |         &lt;/node&gt;
+          |       &lt;/node&gt;
+          |   `
+          | });
+
+template(name='slide21')
+  +Slide
+    +DOMElement
+      h2 Famous Pros &amp; Cons
+      ul
+        li Pros
+        ul
+          li Unbeatable performance and flexibility
+          li Well funded and not going anywhere
+          li Great attitude w/ Famo.us Labs, etc.
+        br
+        li Cons
+        ul
+          li Not a stable release (more on next page)
+          li Historically, bad communications &amp; transparency
+          li Historically, focus on low-level stuff vs widgets
+          li Historically, generate too much buzz too early
+          li App "success stories" worked 1-on-1 with Famo.us
+
+      p What does the future hold?
+      ul
+        li Much more activity (before: "quiet time" focused on next release)
+        li jQuery, Bootstrap, components
+        li Famous-Views goal: ionic-inspired component system
+
+template(name='slide22')
+  +Slide
+    +DOMElement
+      h2 Current State of Affairs
+
+      h3 Famous
+      ul
+        li Engine came out last month (beta) - starting to stabilize
+        li Framework came out this week (alpha)
+        li Famous Hub - basic deploy support; in the future: great tooling
+      h3 Famous-Views
+      ul
+        li Engine support working - lessons and examples @ fview-lab
+        li Framework support planned - what will it look like?
+
+      h3 So in both cases
+      ul
+        li Ecosystem reforming from scratch (e.g., no community built stuff)
+        li But foundations exist to start building stuff now
+
+template(name="slide23")
+  +Slide
+    +DOMElement
+      h2 Meetup Famous - That's it!
+
+      h3 Any Questions?  Some useful links:
+
+      p Slide deck
+        br
+        a(href="http://meetup-fview-london.meteor.com/") gadi.cc/meteor-london
+        | (
+        a(href="http://github.com/gadicc/meetup-fview-london/") source
+        | )
+
+      p Famous-Views
+      ul
+        li
+          a(href="http://famous-views.meteor.com/") famous-views.meteor.com
+          | - demo/docs, github, plugins (v0)
+        li
+          a(href="http://github.com/gadicc/meteor-famous-views/") Github/README
+          | ,
+          a(href="http://forums.famous-views.org/") forums
+          | ,
+          a(href="https://fview-lab2.meteor.com/gadicc") FView-Lab
+        li
+          a(href="http://meetup-fview-london.meteor.com/") gadi.cc/meteor-london
+          | (
+          a(href="https://github.com/gadicc/meetup-fview-london") sources
+          | )
+
+      p Famous
+      ul
+        li
+          a(href="http://famous.org/") Official Famo.us Page
+          | (Engine, Framework, Lessons, Blog)
+        li
+          a(href="http://venturebeat.com/2014/08/13/famo-us-raises-25m-to-double-down-on-javascript-app-development-framework/")
+            | Venture Beat Article (Aug 14)
+
+      p Questions later?  Meetup group, forums.
+    .footer gadicc
+      
+
+//
+  Framework
+
+  Moving forward
+     * pressure, now fix
+     * attitude
+
+  Pros & Cons
+
+  What would I recommend *now* ?
+
