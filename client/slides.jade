@@ -176,11 +176,6 @@ template(name='slide8')
       ul
         li
           a(href="https://www.youtube.com/watch?v=NqDMFANQ1v8") Famous Intro (new)
-          | &amp;
-          a(href="http://famous.org/learn/MixedMode/index.html") Mixed Mode Lesson
-          | (
-          a(href="https://fview-lab2.meteor.com/pads/3WusgoWo7BRWpj5JX") fview
-          | )
         li
           a(href="https://www.youtube.com/watch?v=z9PPD9z2sPM") Sizzle Real (old)
           | - 1:30m, misc partial demos
@@ -215,13 +210,14 @@ template(name='slide8')
           a(href="http://youtu.be/EjLCfD8qrkE") Mixed Mode Keyboard
           a(href="http://youtu.be/EjLCfD8qrkE?t=1m") (1:00), 
           a(href="https://www.youtube.com/watch?v=FwGjm9DZ-S4") Coverflow
+        li
+          a(href="http://demo.famo.us/famous-creative/music-visualizer/") Mixed Mode Music Visualizer
         br
         li
+          a(href="http://codepen.io/befamous/") Famo.us CodePen
+          | , 
           a(href="http://boot-com-webapp.herokuapp.com/") Boot-com
-            | - basic widgets
-        li
-          a(href="http://codepen.io/befamous/")
-            | Famo.us CodePen
+          | - basic widgets
 
       .footer gadicc
 
@@ -397,7 +393,7 @@ template(name='slide16')
         br
         | Live code editor for client-side Famous-Views
 
-      a(href="http://fview-lab2.meteor.com/")
+      a(href="https://fview-lab2.meteor.com/pads/moy7iBsvgFr72yWFK")
         img(src="/img/fview-lab.jpg")
 
 template(name='slide17')
@@ -406,7 +402,7 @@ template(name='slide17')
       h2 Simple Code Demo - FView-Lab
 
       h3
-        a(href="http://fview-lab2.meteor.com/") Let's do some code!
+        a(href="https://fview-lab2.meteor.com/pads/moy7iBsvgFr72yWFK") Let's do some code!
       ul
         li Show content
         li Style content
@@ -470,13 +466,14 @@ template(name='slide20')
         a(href="http://famous.org/framework/") Famous Framework
 
       div.noclick
-        +snippet lang="js"
+        +snippet lang="javascript"
           | FamousFramework.component('my-name:hello-framework',  {
           |   behaviors: {
           |     '#text': {
-          |      'size': [400, 80],
-          |      'position': function(positionX) {
-          |        return [positionX, 0];
+          |       'size': [400, 80],
+          |       'position': function(positionX) {
+          |         return [positionX, 0];
+          |       }
           |     }
           |   },
           |   events: {
@@ -505,17 +502,16 @@ template(name='slide21')
       ul
         li Pros
         ul
-          li Unbeatable performance and flexibility
+          li Unbeatable performance, flexibility; mixed mode
           li Well funded and not going anywhere
           li Great attitude w/ Famo.us Labs, etc.
         br
         li Cons
         ul
-          li Not a stable release (more on next page)
+          li Pre-1.0 release (more on next page)
           li Historically, bad communications &amp; transparency
           li Historically, focus on low-level stuff vs widgets
-          li Historically, generate too much buzz too early
-          li App "success stories" worked 1-on-1 with Famo.us
+          li Historically, generate too much buzz prematurely
 
       p What does the future hold?
       ul
@@ -546,9 +542,7 @@ template(name='slide22')
 template(name="slide23")
   +Slide
     +DOMElement
-      h2 Meetup Famous - That's it!
-
-      h3 Any Questions?  Some useful links:
+      h2 That's it!  Any questions?
 
       p Slide deck
         br
@@ -557,33 +551,38 @@ template(name="slide23")
         a(href="http://github.com/gadicc/meetup-fview-london/") source
         | )
 
-      p Famous-Views
+      p
+        b Famous-Views
       ul
-        li
-          a(href="http://famous-views.meteor.com/") famous-views.meteor.com
-          | - demo/docs, github, plugins (v0)
         li
           a(href="http://github.com/gadicc/meteor-famous-views/") Github/README
           | ,
           a(href="http://forums.famous-views.org/") forums
           | ,
           a(href="https://fview-lab2.meteor.com/gadicc") FView-Lab
+          | (v1)
         li
-          a(href="http://meetup-fview-london.meteor.com/") gadi.cc/meteor-london
-          | (
-          a(href="https://github.com/gadicc/meetup-fview-london") sources
-          | )
+          a(href="http://famous-views.meteor.com/") famous-views.meteor.com
+          | - demo/docs, github, plugins (v0)
+        li
+          a(href="http://fview-flex.meteor.com/") fview-flex
+          | - fview wrapper for @IjzerenHein's famous-flex (v0)
 
-      p Famous
+      p
+        b Famous
       ul
         li
           a(href="http://famous.org/") Official Famo.us Page
           | (Engine, Framework, Lessons, Blog)
         li
           a(href="http://venturebeat.com/2014/08/13/famo-us-raises-25m-to-double-down-on-javascript-app-development-framework/")
-            | Venture Beat Article (Aug 14)
+            | Venture Beat Article
+          | (Aug 14)
+        li
+          a(href="http://famousco.de/") famousco.de
+          | - news &amp; demos
 
-      p Questions later?  Meetup group, forums.
+      p Questions later? &nbsp; meetup group, <i>forums</i>.
     .footer gadicc
       
 
